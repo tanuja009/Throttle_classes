@@ -110,8 +110,8 @@ REST_FRAMEWORK = {
     ],
 
     'DEFAULT_THROTTLE_RATES': {
-        'anon': '2/day',  # 100 requests per day for anonymous users
-        'user': '2/day',  # 1000 requests per day for authenticated users
+        'anon': '5/day',  # 100 requests per day for anonymous users
+        'user': '5/day',  # 1000 requests per day for authenticated users
     }
 }  
 
