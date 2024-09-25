@@ -9,6 +9,8 @@ class student(models.Model):
     ('chemistry', 'Chemistry'),
     ('bio', 'Biology')
    ]
+  
+  
   gender=[
     ('boy','boy'),
     ('girl','girl'),

@@ -19,6 +19,9 @@ from django.urls import path,include
 from rest_framework.routers import DefaultRouter
 from apiapp.views import apiclasses1
 
+
+
+
 router=DefaultRouter()
 router.register(r'api-classes', apiclasses1, basename='apiclasses')
 
