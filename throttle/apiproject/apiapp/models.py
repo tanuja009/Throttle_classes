@@ -18,3 +18,6 @@ class student(models.Model):
   age=models.IntegerField()
   subject=models.CharField(choices=subjects,max_length=40)
   gender=models.CharField(choices=gender,max_length=50)
+
+  def __str__(self):
+        return f"{self.name}"  # Customize this string as needed
