@@ -5,4 +5,5 @@ from filterapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('employeeapi/',views.employeelist.as_view()),
+    path('paginationview/',views.paginationview.as_view(),name="pahination"),
 ]

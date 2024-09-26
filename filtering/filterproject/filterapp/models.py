@@ -8,3 +8,8 @@ class employee(models.Model):
   salary=models.BigIntegerField()
   domain=models.CharField(max_length=50,choices=domains)
   passby=models.CharField(max_length=100,blank=True)
+
+
+class student(models.Model):
+  name=models.CharField(max_length=50)
+  roll_no=models.BigIntegerField()
